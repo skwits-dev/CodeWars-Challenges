@@ -1,5 +1,5 @@
 // return negative of given number
 
 function makeNegative(num) {
-    return -num;
+    return -Math.abs(num);
   }
