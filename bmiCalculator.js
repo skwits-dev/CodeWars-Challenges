@@ -2,7 +2,8 @@
 - bmi <= 18.5 is "Underweight"
 - bmi <= 25.0 is "Normal"
 - bmi <= 30.0 is "Overweight"
-- bmi > 30 is "Obese" */
+- bmi > 30 is "Obese" 
+will be executed use else if statements */
 
 function bmi(weight, height) {
     if ((weight/(height*height))<= 18.5) {
